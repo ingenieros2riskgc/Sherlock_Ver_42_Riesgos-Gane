@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="LoadWSInspektor">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTokenInspektor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Numeiden" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Nombre" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoadWSInspektorResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoadWSInspektorResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoadGrant">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTokenInspektor" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoadGrantResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoadGrantResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChekName">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTokenInspektor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="srtNumeIden" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ChekNameResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ChekNameResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoadContents">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTokenInspektor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strType" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="LoadContentsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="LoadContentsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsertEvents">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strUsuario" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="strTokenInspektor" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="evento" type="tns:cEvento" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="cEvento">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="Titulo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="FechaTransaccion" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="MontoEstimado" type="s:double" />
+          <s:element minOccurs="0" maxOccurs="1" name="Identificacion" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Observaciones" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Usuario" type="s:string" />
+          <s:element minOccurs="1" maxOccurs="1" name="TipoOperacion" type="s:int" />
+          <s:element minOccurs="1" maxOccurs="1" name="EstadoOperacion" type="s:int" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="InsertEventsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsertEventsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="LoadWSInspektorSoapIn">
+    <wsdl:part name="parameters" element="tns:LoadWSInspektor" />
+  </wsdl:message>
+  <wsdl:message name="LoadWSInspektorSoapOut">
+    <wsdl:part name="parameters" element="tns:LoadWSInspektorResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoadGrantSoapIn">
+    <wsdl:part name="parameters" element="tns:LoadGrant" />
+  </wsdl:message>
+  <wsdl:message name="LoadGrantSoapOut">
+    <wsdl:part name="parameters" element="tns:LoadGrantResponse" />
+  </wsdl:message>
+  <wsdl:message name="ChekNameSoapIn">
+    <wsdl:part name="parameters" element="tns:ChekName" />
+  </wsdl:message>
+  <wsdl:message name="ChekNameSoapOut">
+    <wsdl:part name="parameters" element="tns:ChekNameResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoadContentsSoapIn">
+    <wsdl:part name="parameters" element="tns:LoadContents" />
+  </wsdl:message>
+  <wsdl:message name="LoadContentsSoapOut">
+    <wsdl:part name="parameters" element="tns:LoadContentsResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsertEventsSoapIn">
+    <wsdl:part name="parameters" element="tns:InsertEvents" />
+  </wsdl:message>
+  <wsdl:message name="InsertEventsSoapOut">
+    <wsdl:part name="parameters" element="tns:InsertEventsResponse" />
+  </wsdl:message>
+  <wsdl:message name="LoadWSInspektorHttpGetIn">
+    <wsdl:part name="strUsuario" type="s:string" />
+    <wsdl:part name="strTokenInspektor" type="s:string" />
+    <wsdl:part name="Numeiden" type="s:string" />
+    <wsdl:part name="Nombre" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoadWSInspektorHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="LoadGrantHttpGetIn">
+    <wsdl:part name="strUsuario" type="s:string" />
+    <wsdl:part name="strTokenInspektor" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoadGrantHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ChekNameHttpGetIn">
+    <wsdl:part name="strUsuario" type="s:string" />
+    <wsdl:part name="strTokenInspektor" type="s:string" />
+    <wsdl:part name="srtNumeIden" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChekNameHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="LoadContentsHttpGetIn">
+    <wsdl:part name="strUsuario" type="s:string" />
+    <wsdl:part name="strTokenInspektor" type="s:string" />
+    <wsdl:part name="strType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoadContentsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="LoadWSInspektorHttpPostIn">
+    <wsdl:part name="strUsuario" type="s:string" />
+    <wsdl:part name="strTokenInspektor" type="s:string" />
+    <wsdl:part name="Numeiden" type="s:string" />
+    <wsdl:part name="Nombre" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoadWSInspektorHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="LoadGrantHttpPostIn">
+    <wsdl:part name="strUsuario" type="s:string" />
+    <wsdl:part name="strTokenInspektor" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoadGrantHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="ChekNameHttpPostIn">
+    <wsdl:part name="strUsuario" type="s:string" />
+    <wsdl:part name="strTokenInspektor" type="s:string" />
+    <wsdl:part name="srtNumeIden" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="ChekNameHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="LoadContentsHttpPostIn">
+    <wsdl:part name="strUsuario" type="s:string" />
+    <wsdl:part name="strTokenInspektor" type="s:string" />
+    <wsdl:part name="strType" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="LoadContentsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="WSInspektorSoap">
+    <wsdl:operation name="LoadWSInspektor">
+      <wsdl:input message="tns:LoadWSInspektorSoapIn" />
+      <wsdl:output message="tns:LoadWSInspektorSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadGrant">
+      <wsdl:input message="tns:LoadGrantSoapIn" />
+      <wsdl:output message="tns:LoadGrantSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChekName">
+      <wsdl:input message="tns:ChekNameSoapIn" />
+      <wsdl:output message="tns:ChekNameSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadContents">
+      <wsdl:input message="tns:LoadContentsSoapIn" />
+      <wsdl:output message="tns:LoadContentsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertEvents">
+      <wsdl:input message="tns:InsertEventsSoapIn" />
+      <wsdl:output message="tns:InsertEventsSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSInspektorHttpGet">
+    <wsdl:operation name="LoadWSInspektor">
+      <wsdl:input message="tns:LoadWSInspektorHttpGetIn" />
+      <wsdl:output message="tns:LoadWSInspektorHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadGrant">
+      <wsdl:input message="tns:LoadGrantHttpGetIn" />
+      <wsdl:output message="tns:LoadGrantHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChekName">
+      <wsdl:input message="tns:ChekNameHttpGetIn" />
+      <wsdl:output message="tns:ChekNameHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadContents">
+      <wsdl:input message="tns:LoadContentsHttpGetIn" />
+      <wsdl:output message="tns:LoadContentsHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="WSInspektorHttpPost">
+    <wsdl:operation name="LoadWSInspektor">
+      <wsdl:input message="tns:LoadWSInspektorHttpPostIn" />
+      <wsdl:output message="tns:LoadWSInspektorHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadGrant">
+      <wsdl:input message="tns:LoadGrantHttpPostIn" />
+      <wsdl:output message="tns:LoadGrantHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ChekName">
+      <wsdl:input message="tns:ChekNameHttpPostIn" />
+      <wsdl:output message="tns:ChekNameHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="LoadContents">
+      <wsdl:input message="tns:LoadContentsHttpPostIn" />
+      <wsdl:output message="tns:LoadContentsHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WSInspektorSoap" type="tns:WSInspektorSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LoadWSInspektor">
+      <soap:operation soapAction="http://tempuri.org/LoadWSInspektor" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadGrant">
+      <soap:operation soapAction="http://tempuri.org/LoadGrant" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChekName">
+      <soap:operation soapAction="http://tempuri.org/ChekName" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadContents">
+      <soap:operation soapAction="http://tempuri.org/LoadContents" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertEvents">
+      <soap:operation soapAction="http://tempuri.org/InsertEvents" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSInspektorSoap12" type="tns:WSInspektorSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="LoadWSInspektor">
+      <soap12:operation soapAction="http://tempuri.org/LoadWSInspektor" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadGrant">
+      <soap12:operation soapAction="http://tempuri.org/LoadGrant" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChekName">
+      <soap12:operation soapAction="http://tempuri.org/ChekName" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadContents">
+      <soap12:operation soapAction="http://tempuri.org/LoadContents" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertEvents">
+      <soap12:operation soapAction="http://tempuri.org/InsertEvents" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSInspektorHttpGet" type="tns:WSInspektorHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="LoadWSInspektor">
+      <http:operation location="/LoadWSInspektor" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadGrant">
+      <http:operation location="/LoadGrant" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChekName">
+      <http:operation location="/ChekName" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadContents">
+      <http:operation location="/LoadContents" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="WSInspektorHttpPost" type="tns:WSInspektorHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="LoadWSInspektor">
+      <http:operation location="/LoadWSInspektor" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadGrant">
+      <http:operation location="/LoadGrant" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ChekName">
+      <http:operation location="/ChekName" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="LoadContents">
+      <http:operation location="/LoadContents" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="WSInspektor">
+    <wsdl:port name="WSInspektorSoap" binding="tns:WSInspektorSoap">
+      <soap:address location="https://inspektortest.datalaft.com:8185/WSInspektor.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSInspektorSoap12" binding="tns:WSInspektorSoap12">
+      <soap12:address location="https://inspektortest.datalaft.com:8185/WSInspektor.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSInspektorHttpGet" binding="tns:WSInspektorHttpGet">
+      <http:address location="https://inspektortest.datalaft.com:8185/WSInspektor.asmx" />
+    </wsdl:port>
+    <wsdl:port name="WSInspektorHttpPost" binding="tns:WSInspektorHttpPost">
+      <http:address location="https://inspektortest.datalaft.com:8185/WSInspektor.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

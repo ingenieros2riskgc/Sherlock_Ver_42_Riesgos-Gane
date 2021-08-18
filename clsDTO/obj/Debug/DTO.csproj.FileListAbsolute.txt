@@ -1,0 +1,5 @@
+D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\clsDTO\bin\Debug\DTO.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\clsDTO\bin\Debug\DTO.pdb
+D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\clsDTO\obj\Debug\DTO.csprojAssemblyReference.cache
+D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\clsDTO\obj\Debug\DTO.dll
+D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\clsDTO\obj\Debug\DTO.pdb

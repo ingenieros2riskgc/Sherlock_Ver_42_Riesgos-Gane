@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsImagenesH" targetNamespace="http://tempuri.org/dsImagenesH.xsd" xmlns:mstns="http://tempuri.org/dsImagenesH.xsd" xmlns="http://tempuri.org/dsImagenesH.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsImagenesH" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="dsImagenesH" msprop:Generator_UserDSName="dsImagenesH">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="dtImagenes" msprop:Generator_TableClassName="dtImagenesDataTable" msprop:Generator_TableVarName="tabledtImagenes" msprop:Generator_TablePropName="dtImagenes" msprop:Generator_RowDeletingName="dtImagenesRowDeleting" msprop:Generator_RowChangingName="dtImagenesRowChanging" msprop:Generator_RowEvHandlerName="dtImagenesRowChangeEventHandler" msprop:Generator_RowDeletedName="dtImagenesRowDeleted" msprop:Generator_UserTableName="dtImagenes" msprop:Generator_RowChangedName="dtImagenesRowChanged" msprop:Generator_RowEvArgName="dtImagenesRowChangeEvent" msprop:Generator_RowClassName="dtImagenesRow">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="IdArchivoAuditoria" msprop:Generator_ColumnVarNameInTable="columnIdArchivoAuditoria" msprop:Generator_ColumnPropNameInRow="IdArchivoAuditoria" msprop:Generator_ColumnPropNameInTable="IdArchivoAuditoriaColumn" msprop:Generator_UserColumnName="IdArchivoAuditoria" type="xs:string" minOccurs="0" />
+              <xs:element name="IdAuditoria" msprop:Generator_ColumnVarNameInTable="columnIdAuditoria" msprop:Generator_ColumnPropNameInRow="IdAuditoria" msprop:Generator_ColumnPropNameInTable="IdAuditoriaColumn" msprop:Generator_UserColumnName="IdAuditoria" type="xs:string" minOccurs="0" />
+              <xs:element name="archivo" msprop:Generator_ColumnVarNameInTable="columnarchivo" msprop:Generator_ColumnPropNameInRow="archivo" msprop:Generator_ColumnPropNameInTable="archivoColumn" msprop:Generator_UserColumnName="archivo" type="xs:string" minOccurs="0" />
+              <xs:element name="Secuencia" msprop:Generator_ColumnVarNameInTable="columnSecuencia" msprop:Generator_ColumnPropNameInRow="Secuencia" msprop:Generator_ColumnPropNameInTable="SecuenciaColumn" msprop:Generator_UserColumnName="Secuencia" type="xs:string" minOccurs="0" />
+              <xs:element name="IdHallazgo" msprop:Generator_ColumnVarNameInTable="columnIdHallazgo" msprop:Generator_ColumnPropNameInRow="IdHallazgo" msprop:Generator_ColumnPropNameInTable="IdHallazgoColumn" msprop:Generator_UserColumnName="IdHallazgo" type="xs:string" minOccurs="0" />
+              <xs:element name="Hallazgo" msprop:Generator_ColumnVarNameInTable="columnHallazgo" msprop:Generator_ColumnPropNameInRow="Hallazgo" msprop:Generator_ColumnPropNameInTable="HallazgoColumn" msprop:Generator_UserColumnName="Hallazgo" type="xs:string" minOccurs="0" />
+              <xs:element name="SecuenciaHallazgo" msprop:Generator_ColumnVarNameInTable="columnSecuenciaHallazgo" msprop:Generator_ColumnPropNameInRow="SecuenciaHallazgo" msprop:Generator_ColumnPropNameInTable="SecuenciaHallazgoColumn" msprop:Generator_UserColumnName="SecuenciaHallazgo" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,985 @@
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.permisosConsulta(String IdFormulario) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cCuenta.cs:línea 381
+29/01/2016 14:03:27
+Referencia a objeto no establecida como instancia de un objeto.,    en ListasSarlaft.Classes.cPropiedades.get_IdUsuario() en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cPropiedades.cs:línea 14
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cCuenta.cs:línea 975
+04/02/2016 16:30:00
+Sintaxis incorrecta cerca de ')'.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cCuenta.permisosConsulta(String IdFormulario) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cCuenta.cs:línea 378
+04/02/2016 16:30:01
+El nombre de objeto 'Riesgos.AudControlRiesgo' no es válido.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cRiesgo.mtdLoadInfoAudRiesgoControl() en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cRiesgo.cs:línea 1685
+07/03/2016 16:27:29
+El nombre de objeto 'Riesgos.AudControlRiesgo' no es válido.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cRiesgo.mtdLoadInfoAudRiesgoControl() en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cRiesgo.cs:línea 1685
+07/03/2016 16:29:04
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en clsLogica.clsCuenta.permisosConsulta(Int32 IdUsuario, Int32 IdRol, String IdFormulario) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\clsLogica\clsCuenta.cs:línea 459
+09/03/2016 16:11:58
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en clsLogica.clsCuenta.permisosConsulta(Int32 IdUsuario, Int32 IdRol, String IdFormulario) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\clsLogica\clsCuenta.cs:línea 459
+09/03/2016 16:12:04
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en clsLogica.clsCuenta.permisosConsulta(Int32 IdUsuario, Int32 IdRol, String IdFormulario) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\clsLogica\clsCuenta.cs:línea 459
+09/03/2016 16:12:15
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en clsLogica.clsCuenta.permisosConsulta(Int32 IdUsuario, Int32 IdRol, String IdFormulario) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\clsLogica\clsCuenta.cs:línea 459
+09/03/2016 16:13:53
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en clsLogica.clsCuenta.permisosConsulta(Int32 IdUsuario, Int32 IdRol, String IdFormulario) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\clsLogica\clsCuenta.cs:línea 459
+09/03/2016 16:15:27
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en clsLogica.clsCuenta.permisosConsulta(Int32 IdUsuario, Int32 IdRol, String IdFormulario) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\clsLogica\clsCuenta.cs:línea 459
+09/03/2016 16:17:28
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en clsLogica.clsCuenta.permisosConsulta(Int32 IdUsuario, Int32 IdRol, String IdFormulario) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\clsLogica\clsCuenta.cs:línea 459
+09/03/2016 16:18:41
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.autenticarUsuario(String Usuario, String Contrasena) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cCuenta.cs:línea 351
+14/03/2016 12:16:40
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.mtdUsuarioBloqueado(String Usuario, String Contrasena) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cCuenta.cs:línea 1007
+14/03/2016 12:16:56
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.MensajeLogin(String Usuario) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cCuenta.cs:línea 181
+14/03/2016 12:17:12
+El identificador formado por varias partes "LCC.FechaRegistro" no se pudo enlazar.
+El identificador formado por varias partes "LCC.Ano" no se pudo enlazar.
+El identificador formado por varias partes "LCC.IdConocimientoCliente" no se pudo enlazar.
+El identificador formado por varias partes "LCC.IdConocimientoCliente" no se pudo enlazar.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cKnowClient.buscarClientFormPJ(String PrimerApellido, String SegundoApellido, String Nombre, String NumeroDocumento, String Ano, String FechaDesde, String FechaHasta, String RazonSocial, String NIT) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cKnowClient.cs:línea 1458
+22/03/2016 10:21:33
+Se terminó la instrucción.
+La conversión del tipo de datos varchar en datetime produjo un valor fuera de intervalo.,    en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   en ListasSarlaft.Classes.cDataBase.ejecutarQuery(String txtQuery) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cDataBase.cs:línea 54
+   en ListasSarlaft.Classes.cEvento.mtdModificarEvento2(String ResponsableContabilidad, String CuentaPUC, String CuentaOrden, String CuentaPerdida, String Moneda1, String TasaCambio1, String ValorPesos1, String ValorRecuperadoTotal, String Moneda2, String TasaCambio2, String ValorPesos2, String ValorRecuperadoSeguro, String ValorPesos3, String Recuperacion, String ValorRecuperacion, String IdEvento, Boolean booIsFecha, String strFechaContab, String strHoraContab) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cEvento.cs:línea 327
+23/05/2016 15:24:50
+Se terminó la instrucción.
+La conversión del tipo de datos varchar en datetime produjo un valor fuera de intervalo.,    en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   en ListasSarlaft.Classes.cDataBase.ejecutarQuery(String txtQuery) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cDataBase.cs:línea 54
+   en ListasSarlaft.Classes.cEvento.mtdModificarEvento2(String ResponsableContabilidad, String CuentaPUC, String CuentaOrden, String CuentaPerdida, String Moneda1, String TasaCambio1, String ValorPesos1, String ValorRecuperadoTotal, String Moneda2, String TasaCambio2, String ValorPesos2, String ValorRecuperadoSeguro, String ValorPesos3, String Recuperacion, String ValorRecuperacion, String IdEvento, Boolean booIsFecha, String strFechaContab, String strHoraContab) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cEvento.cs:línea 327
+23/05/2016 15:24:56
+The multi-part identifier "RR.IdProceso" could not be bound.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cRiesgo.perfilRiesgoInherente(String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, String IdClasificacionRiesgo, String IdClasificacionGeneralRiesgo, String IdClasificacionParticularRiesgo, String IdAreas, String strFechaHistorico, String strIdFactorRiesgoLAFT, String strIdEmpresa, String strNombreEmpresa) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cRiesgo.cs:línea 2438
+01/07/2016 12:11:53
+The multi-part identifier "RR.IdProceso" could not be bound.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cRiesgo.perfilRiesgoInherente(String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, String IdClasificacionRiesgo, String IdClasificacionGeneralRiesgo, String IdClasificacionParticularRiesgo, String IdAreas, String strFechaHistorico, String strIdFactorRiesgoLAFT, String strIdEmpresa, String strNombreEmpresa) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cRiesgo.cs:línea 2438
+01/07/2016 12:12:50
+The multi-part identifier "RR.IdProceso" could not be bound.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cRiesgo.perfilRiesgoInherente(String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, String IdClasificacionRiesgo, String IdClasificacionGeneralRiesgo, String IdClasificacionParticularRiesgo, String IdAreas, String strFechaHistorico, String strIdFactorRiesgoLAFT, String strIdEmpresa, String strNombreEmpresa) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cRiesgo.cs:línea 2438
+01/07/2016 12:13:14
+The multi-part identifier "RR.IdProceso" could not be bound.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cRiesgo.perfilRiesgoInherente(String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, String IdClasificacionRiesgo, String IdClasificacionGeneralRiesgo, String IdClasificacionParticularRiesgo, String IdAreas, String strFechaHistorico, String strIdFactorRiesgoLAFT, String strIdEmpresa, String strNombreEmpresa) en e:\TFS\Sherlock\Fuentes\Ver_3.4.0\ListasSarlaft\Classes\cRiesgo.cs:línea 2438
+01/07/2016 12:19:49
+The statement has been terminated.
+The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.,    en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   en ListasSarlaft.Classes.cDataBase.ejecutarQuery(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 54
+   en ListasSarlaft.Classes.cCargaMasivaRCE.registrarEvento(String IdEmpresa, String IdRegion, String IdPais, String IdDepartamento, String IdCiudad, String IdOficinaSucursal, String DetalleUbicacion, String DescripcionEvento, String IdServicio, String IdSubServicio, String FechaInicio, String HoraInicio, String FechaFinalizacion, String HoraFinalizacion, String FechaDescubrimiento, String HoraDescubrimiento, String IdCanal, String IdGeneraEvento, String GeneraEvento, String cuantiaperdida, String FechaEvento, String NomGeneradorEvento, Int32 IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCargaMasivaRCE.cs:línea 899
+21/09/2018 11:07:10
+The statement has been terminated.
+The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.,    en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   en ListasSarlaft.Classes.cDataBase.ejecutarQuery(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 54
+   en ListasSarlaft.Classes.cCargaMasivaRCE.registrarEvento(String IdEmpresa, String IdRegion, String IdPais, String IdDepartamento, String IdCiudad, String IdOficinaSucursal, String DetalleUbicacion, String DescripcionEvento, String IdServicio, String IdSubServicio, String FechaInicio, String HoraInicio, String FechaFinalizacion, String HoraFinalizacion, String FechaDescubrimiento, String HoraDescubrimiento, String IdCanal, String IdGeneraEvento, String GeneraEvento, String cuantiaperdida, String FechaEvento, String NomGeneradorEvento, Int32 IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCargaMasivaRCE.cs:línea 899
+21/09/2018 11:09:58
+The statement has been terminated.
+The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.,    en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   en ListasSarlaft.Classes.cDataBase.ejecutarQuery(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 54
+   en ListasSarlaft.Classes.cCargaMasivaRCE.registrarEvento(String IdEmpresa, String IdRegion, String IdPais, String IdDepartamento, String IdCiudad, String IdOficinaSucursal, String DetalleUbicacion, String DescripcionEvento, String IdServicio, String IdSubServicio, String FechaInicio, String HoraInicio, String FechaFinalizacion, String HoraFinalizacion, String FechaDescubrimiento, String HoraDescubrimiento, String IdCanal, String IdGeneraEvento, String GeneraEvento, String cuantiaperdida, String FechaEvento, String NomGeneradorEvento, Int32 IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCargaMasivaRCE.cs:línea 899
+21/09/2018 11:11:30
+The statement has been terminated.
+The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.,    en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   en ListasSarlaft.Classes.cDataBase.ejecutarQuery(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 54
+   en ListasSarlaft.Classes.cCargaMasivaRCE.registrarEvento(String IdEmpresa, String IdRegion, String IdPais, String IdDepartamento, String IdCiudad, String IdOficinaSucursal, String DetalleUbicacion, String DescripcionEvento, String IdServicio, String IdSubServicio, String FechaInicio, String HoraInicio, String FechaFinalizacion, String HoraFinalizacion, String FechaDescubrimiento, String HoraDescubrimiento, String IdCanal, String IdGeneraEvento, String GeneraEvento, String cuantiaperdida, String FechaEvento, String NomGeneradorEvento, Int32 IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCargaMasivaRCE.cs:línea 899
+21/09/2018 11:15:23
+The statement has been terminated.
+The conversion of a varchar data type to a datetime data type resulted in an out-of-range value.,    en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   en ListasSarlaft.Classes.cDataBase.ejecutarQuery(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 54
+   en ListasSarlaft.Classes.cCargaMasivaRCE.registrarEvento(String IdEmpresa, String IdRegion, String IdPais, String IdDepartamento, String IdCiudad, String IdOficinaSucursal, String DetalleUbicacion, String DescripcionEvento, String IdServicio, String IdSubServicio, String FechaInicio, String HoraInicio, String FechaFinalizacion, String HoraFinalizacion, String FechaDescubrimiento, String HoraDescubrimiento, String IdCanal, String IdGeneraEvento, String GeneraEvento, String cuantiaperdida, String FechaEvento, String NomGeneradorEvento, Int32 IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCargaMasivaRCE.cs:línea 899
+21/09/2018 11:15:55
+[DBNETLIB][ConnectionWrite (send()).]Error general de red. Consulte la documentación de la red.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cCargaMasivaRCE.GridRiesgosvsControl(String IdControlesRiesgo) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCargaMasivaRCE.cs:línea 480
+21/09/2018 15:16:11
+Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int., Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int.
+21/09/2018 15:17:35
+Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int., Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int.
+21/09/2018 15:17:53
+Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int., Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int.
+21/09/2018 15:18:15
+Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int., Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int.
+21/09/2018 15:27:27
+Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int., Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int.
+21/09/2018 15:29:58
+Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int., Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int.
+21/09/2018 15:33:21
+Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int., Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_ControlesRiesgo'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1).' to data type int.
+21/09/2018 15:33:57
+Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_RIESGOS_CONTROLES'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1, 3).' to data type int., Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_RIESGOS_CONTROLES'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1, 3).' to data type int.
+21/09/2018 15:38:49
+Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_RIESGOS_CONTROLES'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1, 3).' to data type int., Conversion failed when converting the nvarchar value 'Violation of UNIQUE KEY constraint 'UC_RIESGOS_CONTROLES'. Cannot insert duplicate key in object 'Riesgos.ControlesRiesgo'. The duplicate key value is (17, 1, 3).' to data type int.
+21/09/2018 15:39:04
+Cod Control: C5 |Total calificación: 29
+21/09/2018 16:55:35
+Cod Control: C5 |Total calificación: 27
+21/09/2018 16:55:42
+Cod Control: C5 |Total calificación: 27
+21/09/2018 16:55:44
+Cod Control: C5 |Total calificación: 17
+21/09/2018 16:55:51
+Cod Control: C5 |Total calificación: 17
+21/09/2018 16:55:53
+Cod Control: C5 |Total calificación: 17
+21/09/2018 16:55:55
+Cod Control: C5 |Total calificación: 17
+21/09/2018 16:56:02
+Cod Control: C5 |Total calificación: 17
+21/09/2018 16:56:04
+Cod Control: C5 |Total calificación: 17
+21/09/2018 16:56:06
+La conversión especificada no es válida.
+21/09/2018 16:56:06
+Cod Control: C5 |Total calificación: 27
+21/09/2018 16:57:44
+Cod Control: C5 |Total calificación: 27
+21/09/2018 16:57:59
+La conversión especificada no es válida.
+21/09/2018 16:57:59
+Cod Control: C5 |Total calificación: 26
+24/09/2018 10:23:09
+Cod Control: C5 |Total calificación: 22
+24/09/2018 10:23:20
+Cod Control: C5 |Total calificación: 22
+24/09/2018 10:23:22
+Cod Control: C5 |Total calificación: 22
+24/09/2018 10:23:32
+Cod Control: C5 |Total calificación: 22
+24/09/2018 10:23:34
+La conversión especificada no es válida.
+24/09/2018 10:23:34
+La conversión especificada no es válida.
+24/09/2018 10:25:49
+La conversión especificada no es válida.
+24/09/2018 10:26:17
+La conversión especificada no es válida.
+24/09/2018 10:27:31
+La conversión especificada no es válida.
+24/09/2018 10:29:07
+La conversión especificada no es válida.
+24/09/2018 10:29:17
+La conversión especificada no es válida.
+24/09/2018 10:29:23
+La conversión especificada no es válida.
+24/09/2018 10:29:55
+La conversión especificada no es válida.
+24/09/2018 10:30:05
+La conversión especificada no es válida.
+24/09/2018 10:34:23
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (287, 43).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 15:22:33
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (287, 43).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 15:22:45
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (286, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 15:37:16
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (291, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 16:03:34
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 16:34:49
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 16:43:11
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 16:43:42
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 17:06:23
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (286, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 17:06:50
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 17:07:10
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 17:07:16
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 17:07:32
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 17:07:48
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 17:11:19
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 17:11:36
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 17:12:30
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (287, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 17:12:48
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (287, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+27/09/2018 17:12:50
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (291, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+28/09/2018 7:56:32
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (291, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+28/09/2018 7:57:13
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (291, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+28/09/2018 7:57:37
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (291, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+28/09/2018 7:58:17
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (291, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+28/09/2018 8:00:40
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+28/09/2018 8:05:49
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+28/09/2018 8:06:12
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (288, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+28/09/2018 8:06:29
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (291, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+28/09/2018 8:09:43
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (291, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+28/09/2018 8:10:21
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (292, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+28/09/2018 8:12:07
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (292, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+28/09/2018 8:24:15
+No hay ninguna fila en la posición 0.,    en System.Data.RBTree`1.GetNodeByIndex(Int32 userIndex)
+   en System.Data.DataRowCollection.get_Item(Int32 index)
+   en ListasSarlaft.Classes.cCuenta.permisosConsulta(String IdFormulario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCuenta.cs:línea 381
+28/09/2018 8:54:12
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:13:31
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:13:32
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:13:38
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:13:39
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:13:40
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:13:41
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:13:41
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:14:13
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:14:18
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:14:23
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:15:54
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:15:55
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:15:56
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:19:39
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:22:23
+No se encontró el procedimiento almacenado 'Eventos.SeleccionarEvento'.,    en ListasSarlaft.Classes.cDataBase.EjecutarSPParametrosReturnDatatable(String NombreSp, List`1 Parametros) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 131
+   en ListasSarlaft.Classes.cEvento.loadInfoEventos(String CodigoEvento, String DescripcionEvento, String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, Int32 IdUsuarioJerarquia) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cEvento.cs:línea 897
+28/09/2018 12:23:50
+Referencia a objeto no establecida como instancia de un objeto.,    en ListasSarlaft.Classes.cPropiedades.get_IdUsuario() en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cPropiedades.cs:línea 14
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCuenta.cs:línea 987
+05/10/2018 12:05:13
+Sintaxis incorrecta cerca de ')'.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cCuenta.permisosConsulta(String IdFormulario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCuenta.cs:línea 378
+05/10/2018 12:05:14
+Referencia a objeto no establecida como instancia de un objeto.,    en ListasSarlaft.Classes.cPropiedades.get_IdUsuario() en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cPropiedades.cs:línea 14
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCuenta.cs:línea 987
+05/10/2018 14:13:02
+Sintaxis incorrecta cerca de ')'.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cCuenta.permisosConsulta(String IdFormulario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCuenta.cs:línea 378
+05/10/2018 14:13:02
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (5, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+22/11/2018 16:27:08
+The statement has been terminated.
+Violation of PRIMARY KEY constraint 'PK_AuditoriaObjetivo'. Cannot insert duplicate key in object 'Auditoria.AuditoriaObjetivo'. The duplicate key value is (5, 40).,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.InseratObjetivoGrupoAuditoria(String IdAuditoria, String IdObjetivo, String IdGrupoAuditoria, String FechaRegistro, String IdUsuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 540
+22/11/2018 16:36:44
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.autenticarUsuario(String Usuario, String Contrasena) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCuenta.cs:línea 351
+23/11/2018 9:49:18
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.mtdUsuarioBloqueado(String Usuario, String Contrasena) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCuenta.cs:línea 1019
+23/11/2018 9:49:18
+[DBNETLIB][ConnectionOpen (Connect()).]No existe el servidor SQL Server o se ha denegado el acceso al mismo.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.MensajeLogin(String Usuario) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCuenta.cs:línea 181
+23/11/2018 9:49:18
+No se puede abrir la base de datos "Sherlock42_Gane" solicitada por el inicio de sesión. Error de inicio de sesión.,    en System.Data.OleDb.OleDbConnectionInternal..ctor(OleDbConnectionString constr, OleDbConnection connection)
+   en System.Data.OleDb.OleDbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.CreateNonPooledConnection(DbConnection owningConnection, DbConnectionPoolGroup poolGroup, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   en System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   en System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   en System.Data.OleDb.OleDbConnection.Open()
+   en ListasSarlaft.Classes.cDataBase.conectar() en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 31
+   en ListasSarlaft.Classes.cCuenta.autenticarUsuario(String Usuario, String Contrasena) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCuenta.cs:línea 351
+23/11/2018 9:50:26
+Ambiguous column name 'IdPlaneacion'.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cAuditoria.LoadListAuditoria(String condicion) en E:\TFS\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cAuditoria.cs:línea 144
+23/11/2018 16:12:32
+La función o el procedimiento ControlInsertarActualizar tiene demasiados argumentos.
+17/03/2020 12:25:14
+La función o el procedimiento ControlInsertarActualizar tiene demasiados argumentos.
+17/03/2020 12:32:20
+El identificador formado por varias partes 'RCR.IdControl' no se pudo enlazar.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cRiesgo.consultaRiesgoResidual(String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, String IdClasificacionRiesgo, String IdClasificacionGeneralRiesgo, String IdClasificacionParticularRiesgo, String IdAreas, String strFechaHistorico, String strIdFactorRiesgoLAFT, String strIdEmpresa, String strNombreEmpresa, String strIdObjetivo) en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cRiesgo.cs:línea 2555
+30/04/2020 13:57:33
+La columna 'Riesgos.Control.efectividad' de la lista de selección no es válida, porque no está contenida en una función de agregado ni en la cláusula GROUP BY.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cRiesgo.consultaRiesgoResidual(String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, String IdClasificacionRiesgo, String IdClasificacionGeneralRiesgo, String IdClasificacionParticularRiesgo, String IdAreas, String strFechaHistorico, String strIdFactorRiesgoLAFT, String strIdEmpresa, String strNombreEmpresa, String strIdObjetivo) en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cRiesgo.cs:línea 2556
+30/04/2020 13:59:46
+Sintaxis incorrecta cerca de ','.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cRiesgo.consultaRiesgoResidual(String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, String IdClasificacionRiesgo, String IdClasificacionGeneralRiesgo, String IdClasificacionParticularRiesgo, String IdAreas, String strFechaHistorico, String strIdFactorRiesgoLAFT, String strIdEmpresa, String strNombreEmpresa, String strIdObjetivo) en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cRiesgo.cs:línea 2559
+30/04/2020 14:10:10
+Error de conversión al convertir el valor varchar ''' al tipo de datos int.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cRiesgo.consultaRiesgoResidual(String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, String IdClasificacionRiesgo, String IdClasificacionGeneralRiesgo, String IdClasificacionParticularRiesgo, String IdAreas, String strFechaHistorico, String strIdFactorRiesgoLAFT, String strIdEmpresa, String strNombreEmpresa, String strIdObjetivo) en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cRiesgo.cs:línea 2559
+30/04/2020 14:32:07
+Error de conversión al convertir el valor varchar ''' al tipo de datos int.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cRiesgo.consultaRiesgoResidual(String IdCadenaValor, String IdMacroproceso, String IdProceso, String IdSubProceso, String IdClasificacionRiesgo, String IdClasificacionGeneralRiesgo, String IdClasificacionParticularRiesgo, String IdAreas, String strFechaHistorico, String strIdFactorRiesgoLAFT, String strIdEmpresa, String strNombreEmpresa, String strIdObjetivo) en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cRiesgo.cs:línea 2559
+30/04/2020 14:34:12
+Referencia a objeto no establecida como instancia de un objeto.,    en ListasSarlaft.Classes.cPropiedades.get_IdUsuario() en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cPropiedades.cs:línea 14
+   en ListasSarlaft.Classes.cCuenta.mtdEstaBloqueado() en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCuenta.cs:línea 1028
+28/05/2020 8:53:35
+Sintaxis incorrecta cerca de ')'.,    en System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   en System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   en System.Data.OleDb.OleDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.OleDb.OleDbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   en System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   en ListasSarlaft.Classes.cDataBase.ejecutarConsulta(String txtQuery) en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cDataBase.cs:línea 45
+   en ListasSarlaft.Classes.cCuenta.permisosConsulta(String IdFormulario) en D:\Workspace\Sherlock\Fuentes\Ver4.2_Riesgos-Gane\ListasSarlaft\Classes\cCuenta.cs:línea 419
+28/05/2020 8:53:35
